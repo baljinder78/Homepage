@@ -29,6 +29,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .Navbar_links li {
@@ -41,7 +42,8 @@
     background-color: var(--maincolor);
 }
 
-.Navbar_links button {
+
+/* .Navbar_links button {
     background-color: var(--maincolor);
     border: none;
     width: 500px;
@@ -54,7 +56,7 @@
 .Navbar_links button:hover {
     background-color: black;
     color: var(--maincolor);
-}
+} */
 
 .small_navbar_links {
     display: none;

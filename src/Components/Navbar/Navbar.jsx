@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import logo from "../../images/logo_black.png";
 import "./Navbar.css";
+import Button  from '../Button';
 function Navbar() {
 
 const [checked,setchekced]=useState(true);
@@ -26,9 +27,7 @@ function handlechecked()
             <li>Resources</li>
             <li>Services</li>
             <li>Contact</li>
-            <button>
-              <b>Book a demo call!</b>
-            </button>
+            <Button content="Book a demo call!"/>
           </ul>
         </div>
         {checked ? (

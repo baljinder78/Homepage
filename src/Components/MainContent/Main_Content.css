@@ -1,0 +1,142 @@
+.main_content_container {
+    margin: 5% 3%;
+    padding: 5%;
+}
+
+.main_content_area {
+    display: flex;
+    justify-content: space-around;
+}
+
+.content_headers {
+    font-size: x-large;
+}
+
+.main_content_area b {
+    text-decoration: underline;
+    font-size: x-large;
+}
+
+.main_content_area_right {
+    width: 20%;
+}
+
+.Brand_content_Area {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.Brands_worked {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: inherit;
+}
+
+.Brands_worked img {
+    width: 25%;
+    filter: grayscale(100%);
+}
+
+.main_content_container:nth-of-type(odd) {
+    background-color: var(--odd_bg);
+}
+
+.myInfo_content_heading {
+    font-size: xxx-large;
+    font-weight: bold;
+}
+
+.myInfo_content_paragraph {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.demo_text {
+    font-size: x-large;
+}
+
+.want_Demo_area {
+    border: 2px solid var(--maincolor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+}
+
+.My_Service_container {
+    padding: 5%;
+    border: 2px solid var(--maincolor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.My_service_heading {
+    font-size: xxx-large;
+}
+
+.My_service_content {
+    font-size: x-large;
+}
+
+.button_mysevice {
+    margin-top: 5%;
+}
+
+.services_container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.service_container {
+    margin: 3%;
+    padding: 2%;
+    border-radius: 30px;
+    background-color: #F6F6F6;
+}
+
+.service_heading {
+    font-size: xx-large;
+}
+
+.service_content {
+    font-weight: bolder;
+    font-size: large;
+}
+
+.testemonial_header {
+    text-align: center;
+    font-size: xxx-large;
+}
+
+.testemonial_content {
+    font-size: larger;
+    padding: 3%;
+}
+
+.testimonials_area {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #bfbfbf;
+    border-radius: 20px;
+    flex-direction: row;
+}
+
+.testemonial_pic {
+    width: 20%;
+    padding: 2%;
+}
+
+@media only screen and (max-width: 600px) {
+    .main_content_area_right {
+        width: 50%;
+    }
+    .main_content_area {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+}
