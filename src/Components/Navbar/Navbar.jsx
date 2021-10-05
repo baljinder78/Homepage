@@ -13,8 +13,7 @@ function handlechecked()
     return (
       <div className='Navbar_container'>
         <div className='logo_container'>
-          <img src={logo} alt='logo' />
-          <h1>Riteesh</h1>
+          <h1>Muskan</h1>
         </div>
         <div
           className={
