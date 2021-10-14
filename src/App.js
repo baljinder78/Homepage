@@ -1,12 +1,12 @@
 import Navbar from "./Components/Navbar/Navbar";
 import Maincontent from "./Components/MainContent/Main_content";
-function App() {
+
+export default function App() {
   return (
     <>
-  <Navbar/>
-  <Maincontent/>
+      <Navbar/>
+      <Maincontent/>
     </>
   );
 }
 
-export default App;
