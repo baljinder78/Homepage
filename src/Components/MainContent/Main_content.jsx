@@ -20,7 +20,7 @@ function Main_content() {
             <div className='main_content_area_left'>
               <p className='content_headers'>
                 HELPING <b>INSURANCE BRANDS</b> IN <br /> ACHIEVING MORE -
-                AUTHORITY |BRAND AWARENESS | SALES.
+                AUTHORITY |BRAND AWARENESS | SALES | MARKETING.
               </p>
               <p>
                 WITH <br /> <b>DEEP CONTENT MARKETNG</b>
@@ -40,7 +40,7 @@ function Main_content() {
         </div>
         <div className='main_content_container'>
           <h1 className='myInfo_content_heading'>
-            Hi there, My name is Muskan
+            Hi there! My name is Muskan
           </h1>
 
           <p className='myInfo_content_paragraph'>
@@ -145,6 +145,8 @@ function Main_content() {
               ONLY IF YOU FEEL LIKE :)
             </h1>
             <input type="text" placeholder="Enter your email..."/>
+             <br/>
+             <br/>
             <Button content="   Get Started!   "/>
           </div>
         </div>
