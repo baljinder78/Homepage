@@ -1,6 +1,6 @@
 ✨ **PORTFOLIO WEBSITE** ✨
 
-##The following repository consists a portfolio website.
+**The following repository consists a portfolio website.**
 
 *The website represents all the required information such as about section, services, contact details, experience about the candidate.*
 
