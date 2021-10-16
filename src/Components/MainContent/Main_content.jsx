@@ -40,7 +40,7 @@ function Main_content() {
         </div>
         <div className='main_content_container'>
           <h1 className='myInfo_content_heading'>
-            Hi there, My name is Riteesh
+            Hi there, My name is Muskan
           </h1>
 
           <p className='myInfo_content_paragraph'>
@@ -133,16 +133,10 @@ function Main_content() {
           <div className='testimonials_area'>
             <img className='testemonial_pic' alt='riteesh' src={pp} />
             <i className='testemonial_content'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-              molestie, nibh non placerat ultricies, dui sem luctus arcu, eu
-              facilisis metus magna at ligula. Maecenas sit amet egestas augue.
-              Etiam a dui quis nisl ullamcorper egestas. Maecenas ultricies
-              blandit ligula, gravida viverra mauris tincidunt eu. Vestibulum
-              tincidunt turpis vitae ex lobortis, in dictum elit condimentum.
-              Suspendisse ultrices eu metus quis gravida. Cras vitae aliquet
-              turpis. Aliquam consectetur aliquet tortor, a ultricies ante
-              hendrerit et. Praesent congue imperdiet ex id iaculis. Ut ipsum
-              nulla, venenatis at lacus nec, luctus cursus ex.
+              Muskan is extremely hardworking, detail-oriented, passionate towards her work.
+              She works within the deadline provided and the final product is always perfect.
+              She has complete knowledge of the services she provide. It was an outstanding experience working with her and we 
+              look forwards for more projects and work with her.
             </i>
           </div>
           <div className='not_sure_'>
