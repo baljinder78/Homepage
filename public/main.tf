@@ -6,12 +6,6 @@
 # resources and 'terraform apply' as much as you'd like! These resources are
 # purely for demonstration and created in Terraform Cloud, scoped to your TFC
 # user account.
-#
-# To review the provider and documentation for the available resources and
-# schemas, see: https://registry.terraform.io/providers/hashicorp/fakewebservices
-#
-# If you're looking for the configuration for the remote backend, you can find that
-# in backend.tf.
 
 
 resource "fakewebservices_vpc" "primary_vpc" {
@@ -20,7 +14,7 @@ resource "fakewebservices_vpc" "primary_vpc" {
 }
 
 resource "fakewebservices_server" "servers" {
-  count = 2
+  count = 1
 
   name = "Server ${count.index + 1}"
   type = "t2.micro"
