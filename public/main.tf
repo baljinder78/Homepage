@@ -1,13 +1,3 @@
-# The following configuration uses a provider which provisions [fake] resources
-# to a fictitious cloud vendor called "Fake Web Services". Configuration for
-# the fakewebservices provider can be found in provider.tf.
-#
-# After running the setup script (./scripts/setup.sh), feel free to change these
-# resources and 'terraform apply' as much as you'd like! These resources are
-# purely for demonstration and created in Terraform Cloud, scoped to your TFC
-# user account.
-
-
 resource "fakewebservices_vpc" "primary_vpc" {
   name       = "Primary VPC"
   cidr_block = "0.0.0.0/1"
@@ -27,6 +17,6 @@ resource "fakewebservices_load_balancer" "primary_lb" {
 }
 
 resource "fakewebservices_database" "prod_db" {
-  name = "Production DB"
+  name = "Production Database"
   size = 256
 }
